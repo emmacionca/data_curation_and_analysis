@@ -1,12 +1,36 @@
 # data_curation_and_analysis
+This project scrapes data from the table in the Wikipedia article: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population and transforms the HTML into a CSV file. The CSV file is then used to create some graphical representations of the data. 
 
-This directory includes a few sample datasets to get you started.
+API Documentation: 
+pandas: https://pandas.pydata.org/docs/
+BeautifulSoup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+matplotlib: https://matplotlib.org/stable/index.html
+seaborn: https://seaborn.pydata.org/
+numpy: https://numpy.org/doc/
 
-california_housing_data*.csv is California housing data from the 1990 US Census; more information is available at: https://developers.google.com/machine-learning/crash-course/california-housing-data-description
+Wikipedia data is available under the [Creative Commons Attribution-ShareAlike License 4.0.]([https://link-url-here.or](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License)g). 
 
+My data is available under the MIT license. 
 
-The goal of your project
-Links to any relevant API documentation
-The license of your data and any source data
-A data type and description for each attribute in your data
-Any known issues or potential issues, such as sources of bias in collection
+Data type and descriptions for data attributes:
+**Country / Dependency**
+Data type: `string`
+Description: The name of the country 
+
+**Population**
+Data type: `int`
+Description: The number value of the population of each country
+
+**% of world**
+Data type: `float between 0-100`
+Description: The number value of the percentage of the world each population represents 
+
+**Date**
+Data type: `string`
+Description: The date at which the population estimate was published
+
+**Source (official or from the United Nations)**
+Data type: `string`
+Description: The source from which the population data comes from. 
+
+There are no known issues in the dataset. Potential issues include different data sources and data collection dates. 
