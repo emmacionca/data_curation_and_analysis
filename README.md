@@ -1,4 +1,4 @@
-# data_curation_and_analysis
+# Data Curation And Analysis
 This project scrapes data from the table in the Wikipedia article: https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population and transforms the HTML into a CSV file. The CSV file is then used to create some graphical representations of the data. 
 
 API Documentation: 
