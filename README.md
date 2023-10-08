@@ -8,7 +8,7 @@ API Documentation:
 - seaborn: https://seaborn.pydata.org/
 - numpy: https://numpy.org/doc/
 
-Wikipedia data is available under the [Creative Commons Attribution-ShareAlike License 4.0.]([https://link-url-here.or](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License). 
+Wikipedia data is available under the [Creative Commons Attribution-ShareAlike License 4.0.](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License). 
 
 My data is available under the MIT license. 
 
