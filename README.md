@@ -13,24 +13,25 @@ Wikipedia data is available under the [Creative Commons Attribution-ShareAlike L
 My data is available under the MIT license. 
 
 Data type and descriptions for data attributes:
+
 **Country / Dependency**
-Data type: `string`
-Description: The name of the country 
+- Data type: `string`
+- Description: The name of the country 
 
 **Population**
-Data type: `int`
-Description: The number value of the population of each country
+- Data type: `int`
+- Description: The number value of the population of each country
 
 **% of world**
-Data type: `float between 0-100`
-Description: The number value of the percentage of the world each population represents 
+- Data type: `float` between 0-100
+- Description: The number value of the percentage of the world each population represents 
 
 **Date**
-Data type: `string`
-Description: The date at which the population estimate was published
+- Data type: `string`
+- Description: The date at which the population estimate was published
 
 **Source (official or from the United Nations)**
-Data type: `string`
-Description: The source from which the population data comes from. 
+- Data type: `string`
+- Description: The source from which the population data comes from. 
 
 There are no known issues in the dataset. Potential issues include different data sources and data collection dates. 
